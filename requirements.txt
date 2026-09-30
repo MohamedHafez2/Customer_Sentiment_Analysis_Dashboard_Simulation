@@ -1,0 +1,9 @@
+# >=1.49 is required: the dashboard uses the current width="stretch" sizing API
+# for charts and tables, which replaced use_container_width.
+streamlit>=1.49.0
+pandas>=2.1.0
+numpy>=1.26.0
+plotly>=5.20.0
+openpyxl>=3.1.2
+xlrd>=2.0.1
+pytest>=8.0.0
